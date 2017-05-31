@@ -1,6 +1,6 @@
  /*@import url("../fonts/fonts/Indie_Flower/IndieFlower.ttf");*/
 
- @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One');
+ @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One|Baloo+Bhaina|Barrio|Bubbler+One|Keania+One|Lobster|Abril+Fatface');
  body {
    background-color: white;
  }
@@ -13,7 +13,7 @@
  .my-nav {
    position: fixed;
    width: 100%;
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: #1d3fa5;
    height: 10vh;
    border: none;
    z-index: 2;
@@ -21,7 +21,9 @@
 
  .hero {
    height: 100vh;
-   background-image: url('../images/bolle.jpg');
+   /*background-image: url('../images/bolle.jpg');*/
+   background-color: #1d3fa5;
+  
    padding-top: 10vh;
    background-size: cover;
    background-repeat: no-repeat;
@@ -35,13 +37,14 @@
    top: 35%;
    transform: translateX(-50%);
    text-align: center;
-   color: red;
+   color: #1d3fa5;
    -webkit-animation: mymove 5s infinite;
    animation: mymove 5s infinite;
  }
 
  @-webkit-keyframes mymove {
-   50% {color:rebeccapurple ;}
+  50% {color:#f65828 ;} 
+  /*50% {color: white; } */
    
  }
 
@@ -60,26 +63,72 @@
    font-family: 'Kumar One', cursive;
  }
 
- .page1 .text h1 {
-   font-family: 'Indie Flower', cursive;
-   color: red;
-   padding-top: 10vh;
-   text-align: center;
- }
-
- .page1 {
+.page1 {
    height: 100vh;
-   background-color: yellow;
+   background-color: #1d3fa5;
    padding-top: 10vh;
-   background-image: url('../images/escher mani.jpg');
+   /*background-image: url('../images/escher mani.jpg');*/
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
    width: 100%;
-   color: red;
+   
+   
+   color: white;
    
  }
+ 
+ .page1 .text h1 {
+   font-family: 'Indie Flower', cursive;
+   color: #f65828;
+   padding-top: 10vh;
+   text-align: center;
+ }
 
+ .page1 .example1 {
+
+  /*padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px; 
+  border: 1px solid red;
+  */
+  position: center center;
+  /*background-image: url('../images/massa.png');*/
+  background-size: cover;
+  text-align: center;
+  padding-top: 15vh;
+
+ 
+  }
+
+.font1{
+  font-family: 'Baloo Bhaina', cursive;
+
+}
+.font2{
+  font-family: 'Lobster', cursive;
+}
+
+.font3{
+  font-family: 'Abril Fatface', cursive;
+  
+}
+
+.font4{
+  font-family: 'Keania One', cursive;
+}
+
+
+.bgMassa{
+  background-image: url('../images/massa.png');
+}
+
+.page1 .example2 {
+  background-image: url('../images/head.png');
+  z-index: 4;
+  
+  
+}
  #logo {
    max-height: 30px;
  }

@@ -2,19 +2,47 @@ extends ../layout
 
 block head
   title Home
- 
+
 
 block content
-  .container.hero
+  #bufu.container.hero
     .text
       h1 Distorsione
       h2 della
       h3 realtà
-  .container.page1
+  #777.container-fluid.page1
     .text
       h1 Diversi tipi di illusione
-      div class="row"
-        div class="col-sm-4" style="background-color:lavender;".col-sm-4
-        div class="col-sm-4" style="background-color:lavenderblush;".col-sm-4
-        div class="col-sm-4" style="background-color:lavender;".col-sm-4
+    
+    .row 
+      .example1
+        .col-sm-3
+          .font1
+            h1 Consapevole
+        
+        .col-sm-3
+          .font2
+            h1 Inconsapevole
+        
+        .col-sm-3
+          .font3
+            h1 Individuale
+        
+        .col-sm-3
+          .font4
+            h1 Sociale
+         
+        
+    
+          
+
   
+  
+  #gang.container-fluid.page1
+    .row
+      .col-sm-6
+        img(src:='../images/head.png')
+
+  .container.page1
+
+    
