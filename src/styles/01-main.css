@@ -22,7 +22,7 @@
  .hero {
    height: 100vh;
    /*background-image: url('../images/bolle.jpg');*/
-   background-color: #1d3fa5;
+   background-color: #fcf9f3;
   
    padding-top: 10vh;
    background-size: cover;
@@ -43,7 +43,7 @@
  }
 
  @-webkit-keyframes mymove {
-  50% {color:#f65828 ;} 
+  50% {color:#fcf9f3 ;} 
   /*50% {color: white; } */
    
  }
@@ -65,7 +65,7 @@
 
 .page1 {
    height: 100vh;
-   background-color: #1d3fa5;
+   background-color: #fcf9f3;
    padding-top: 10vh;
    /*background-image: url('../images/escher mani.jpg');*/
    background-size: cover;
@@ -74,13 +74,13 @@
    width: 100%;
    
    
-   color: white;
+   color: #1d3fa5;
    
  }
  
  .page1 .text h1 {
    font-family: 'Indie Flower', cursive;
-   color: #f65828;
+   /*color: #f65828;*/
    padding-top: 10vh;
    text-align: center;
  }
@@ -103,6 +103,7 @@
 
 .font1{
   font-family: 'Baloo Bhaina', cursive;
+   
 
 }
 .font2{
