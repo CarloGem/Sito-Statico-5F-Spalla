@@ -43,7 +43,8 @@
  }
 
  @-webkit-keyframes mymove {
-  50% {color:#fcf9f3 ;} 
+  50% {opacity: 0;}
+  /*50% {color:#fcf9f3 ;} */
   /*50% {color: white; } */
    
  }
@@ -127,9 +128,18 @@
 .page1 .example2 {
   background-image: url('../images/head.png');
   z-index: 4;
-  
-  
 }
+
+#bufu {
+
+  background-image: url('../images/pen2.png');
+  background-size:25%; 
+
+}
+
+
+
+
  #logo {
    max-height: 30px;
  }
