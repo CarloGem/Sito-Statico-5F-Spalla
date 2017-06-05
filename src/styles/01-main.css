@@ -1,11 +1,12 @@
  /*@import url("../fonts/fonts/Indie_Flower/IndieFlower.ttf");*/
 
- @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kumar+One|Baloo+Bhaina|Barrio|Bubbler+One|Keania+One|Lobster|Abril+Fatface');
+ @import url('../fonts/fonts/mainfonts.css');
  body {
    background-color: white;
+  
  }
 
- footer {
+footer {
    background-color: black;
    color: white;
  }
@@ -13,23 +14,50 @@
  .my-nav {
    position: fixed;
    width: 100%;
-   background-color: #1d3fa5;
+   /*background-color: #1d3fa5;*/
+   background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    height: 10vh;
    border: none;
    z-index: 2;
+   color: white;
  }
 
- .hero {
-   height: 100vh;
-   /*background-image: url('../images/bolle.jpg');*/
-   background-color: #fcf9f3;
+.my-nav a { 
   
-   padding-top: 10vh;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center center;
-   width: 100%;
- }
+  color: white !important;}
+
+.my-nav li :hover {
+  background-color: white !important;
+  color: #1A2980 !important;
+  
+}
+
+.my-nav li :active{
+  background-color: white !important;
+
+}
+
+
+ .hero {
+    height: 100vh;
+    /*background-image: url('../images/bolle.jpg');*/
+    /*background-color: #fcf9f3;*/
+    background: #1A2980;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(left, #26D0CE, #1A2980);
+ background: -moz-linear-gradient(left, #26D0CE, #1A2980);
+ background: -o-linear-gradient(left, #26D0CE, #1A2980);
+ background: linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+    padding-top: 10vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+  }
 
  .hero .text {
    position: absolute;
@@ -37,13 +65,15 @@
    top: 35%;
    transform: translateX(-50%);
    text-align: center;
-   color: #1d3fa5;
-   -webkit-animation: mymove 5s infinite;
-   animation: mymove 5s infinite;
+   /*color: #1d3fa5;*/
+   color: white;
+   opacity: 0;
+   -webkit-animation: mymove 6s infinite;
+   animation: mymove 6s infinite;
  }
 
  @-webkit-keyframes mymove {
-  50% {opacity: 0;}
+  50% {opacity: 1;}
   /*50% {color:#fcf9f3 ;} */
   /*50% {color: white; } */
    
@@ -66,8 +96,11 @@
 
 .page1 {
    height: 100vh;
-   background-color: #fcf9f3;
-   padding-top: 10vh;
+   /*background-color: #fcf9f3;*/
+  background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    /*background-image: url('../images/escher mani.jpg');*/
    background-size: cover;
    background-repeat: no-repeat;
@@ -75,7 +108,7 @@
    width: 100%;
    
    
-   color: #1d3fa5;
+   color: white;
    
  }
  
@@ -88,16 +121,12 @@
 
  .page1 .example1 {
 
-  /*padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 30px; 
-  border: 1px solid red;
-  */
+  
   position: center center;
   /*background-image: url('../images/massa.png');*/
   background-size: cover;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 10vh;
 
  
   }
@@ -130,11 +159,53 @@
   z-index: 4;
 }
 
-#bufu {
+.pen {
 
-  background-image: url('../images/pen2.png');
-  background-size:25%; 
+  background-image: url('../images/pen2.svg');
+  background-size:50%; 
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: top;
+}
 
+
+
+.es3{
+  background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 75vh;
+ background-image: url('../images/hand.jpg');
+ border-radius: 200px;
+}
+
+.es4{
+  background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-image: url('../images/angelsdevils.jpg');
+ height: 75vh;
+ border-radius: 200px;
+}
+
+.es2{
+  background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-image: url('../images/work.jpg');
+ height: 75vh;
+ border-radius: 200px;
+}
+
+.es1{
+ background-image: url( '../images/pittore2.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ border-radius: 200px;
+ height: 75vh;
+ 
+  
 }
 
 
